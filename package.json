@@ -1,0 +1,39 @@
+{
+  "name": "csv-table-diff-by-key",
+  "version": "0.1.1",
+  "description": "Diff two tables by a key column, not by position: type-sensitive cell changes plus added and removed rows and columns.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/diff.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "diff",
+    "table",
+    "csv",
+    "spreadsheet",
+    "data-comparison",
+    "javascript",
+    "esm",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/csv-table-diff-by-key.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/csv-table-diff-by-key/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/csv-table-diff-by-key#readme"
+}
